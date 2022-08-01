@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+a{
+    color: white;
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: url("./fonts/Vazir.eot") format("eot");
+}
+
+/*---------------- NAV----------------- */
+.top-nav{
+    display: block;
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    position: fixed;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid transparent ;
+}
+
+.hide-nav{
+  
+    display: none;
+    
+}
+
+
+.top-nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    left: 0.5%;
+    margin-top: 5px;
+}
+
+
+.nav-item #top-text{
+    color: white;
+    left: 42%;
+    position: relative;
+    margin-top: 2%;
+    font-size: 18px;
+
+}
+
+
+
+/*---------------- MAIN ----------------- */
+
+
+.bg{
+    background-image: url("./img/nSQNAE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.container{
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+
+.top-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    margin-top: 30px;
+}
+
+i{
+    background-color: black;
+    font-size: 2rem;
+
+}
+.top-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#art-name{
+    color: white;
+    font-size: 1rem;
+    margin: 10px;
+}
+#art-disc{
+    color: gray;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+
+
+.art-sm{ 
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items:center;
+   justify-content:center;
+   width: 100% ;
+  
+}
+
+.item:hover{
+   
+    width: 72%;
+    transition: 0.2s;
+}
+
+@media only screen and (min-width:1200px) {
+    .item:hover{
+         width: 690px; 
+        transition: 0.2s;
+    }
+}
+
+.item{
+    transition: 0.2s;
+    margin: 6px;
+    border: 0px solid black;
+    border-radius: 6px;
+    width: 70%;
+   
+    height: 55px;
+    background-color: rgb(3, 3, 3);
+    opacity: 0.8;
+    
+}
+
+
+@media only screen and (min-width:1200px) {
+    .item{
+       
+        width: 50%;
+
+    }
+}
+
+.link-title{
+    color: white;
+    opacity:1;
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+
+.icon{
+    
+   position: relative;
+    left: 2%;
+    bottom: 14%;
+   color: white;
+   
+}
+
+/* main link  */
+
+
+.main-link{
+    margin-top: 50px;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+
+#f-i{
+    background-color: transparent;
+    font-size: 0.7rem;
+
+}
+
+
